@@ -1,0 +1,52 @@
+// three types of loop
+
+//logic 1 - single if
+
+// syntax
+  if(question){
+    //code runs if question is true
+  }
+
+//example - If it is raining outside, wear a jacket.
+  if(isRaining == true){     // ==, <, >, =<, or => ;compare two things
+    slater.putJacketOn();
+  }
+
+//logic 2 - if/else
+
+//syntax
+  if(question){
+    //code that runs if true
+  } else {
+    //code that runs if false
+  }
+//example
+  if(isRaining == true){     // ==, <, >, =<, or => ;compare two things
+    slater.wearJacket(True);
+  } else {
+    slate.wearJacket(False); 
+  }
+
+//logic 3 - if/elseif/else
+
+//syntax
+  if(question1){
+    //code to run if question 1 is true
+  } else if (question2){
+    //code to run if question 2 is true
+  } else {
+    //code to run by default (catch)
+  }
+
+//logic 4 - nested if's
+
+//syntax
+  if (question1){
+    //code runs if q1 is true
+    if(question2){
+      //code runs if q1 and q2 are true
+      if(question3){
+        //code runs if q1, q2, and q3 are true
+      }
+    }
+  }
